@@ -60,6 +60,7 @@ body .container .button-effect a:last-child {
   padding: 20px 0px;
   width: 150px;
   border-radius: 6px;
+  overflow: hidden;
 }
 
 .effect.effect-1 {
@@ -83,4 +84,33 @@ body .container .button-effect a:last-child {
 }
 .effect.effect-1:hover:after {
   opacity: 1;
+}
+
+.effect.effect-2 {
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-2:before {
+  content: "\f0a4";
+  font-family: FontAwesome;
+  font-size: 15px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -30px;
+  width: 30px;
+  height: calc(100% - 20px);
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 20px;
+  border-radius: 0px 6px 6px 0px;
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+  text-align: center;
+}
+.effect.effect-2:hover {
+  text-indent: -20px;
+}
+.effect.effect-2:hover:before {
+  right: 0;
+  text-indent: 0px;
 }

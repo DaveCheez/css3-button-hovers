@@ -5,6 +5,7 @@ $button-bg-2: #D90368;
 $button-bg-3: #104547;
 $button-bg-4: #4F000B;
 $button-bg-5: #F28123;
+$border-radius: 6px;
 
 //common styles !!!YOU DON'T NEED THEM
 body {
@@ -92,7 +93,8 @@ body {
   }
   padding: 20px 0px;
   width: 150px;
-  border-radius: 6px;
+  border-radius: $border-radius;
+  overflow: hidden;
 }
 
 //effect-1 styles
@@ -117,6 +119,38 @@ body {
     
     &:after {
       opacity: 1;
+    }
+  }
+}
+
+//effect-2 styles
+
+.effect.effect-2 {
+  transition: all 0.2s linear 0s;
+  
+  &:before {
+    content: "\f0a4";
+    font-family: FontAwesome;
+    font-size: 15px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: calc(100% - 20px);
+    background-color: rgba(255,255,255,0.3);
+    padding-top: 20px;
+    border-radius: 0px $border-radius $border-radius 0px;
+    transition: all 0.2s linear 0s;
+    text-align: center;
+  }
+  
+  &:hover {
+    text-indent: -20px;
+    
+    &:before {
+      right: 0;
+      text-indent: 0px;
     }
   }
 }
