@@ -147,7 +147,7 @@ body {
   }
   
   &:hover {
-    text-indent: -20px;
+    text-indent: -30px;
     
     &:before {
       right: 0;
@@ -180,6 +180,36 @@ body {
     
     &:before {
       top: 0;
+      text-indent: 0;
+    }
+  }
+}
+
+//effect-4 styles
+.effect.effect-4 {
+  transition: all 0.2s linear 0s;
+  
+  &:before {
+    content: "\f178";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    transform: scale(0,1);
+    transition: all 0.2s linear 0s;
+  }
+  
+  &:hover {
+    text-indent: -9999px;
+    
+    &:before {
+      transform: scale(1,1);
       text-indent: 0;
     }
   }
