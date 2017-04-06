@@ -67,23 +67,34 @@ body .container .button-effect a:last-child {
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
-.effect.effect-1:after {
+.effect.effect-1:before {
   content: "\f178";
   font-family: FontAwesome;
   font-size: 15px;
   position: absolute;
-  right: 11px;
-  top: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  right: 0;
+  top: 0;
   opacity: 0;
+  height: 100%;
+  width: 40px;
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
-  text-align: right;
 }
 .effect.effect-1:hover {
   text-indent: -20px;
 }
-.effect.effect-1:hover:after {
+.effect.effect-1:hover:before {
   opacity: 1;
+  text-indent: 0px;
 }
 
 .effect.effect-2 {
@@ -94,14 +105,21 @@ body .container .button-effect a:last-child {
   content: "\f0a4";
   font-family: FontAwesome;
   font-size: 15px;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   top: 0;
   right: -30px;
   width: 30px;
-  height: calc(100% - 20px);
+  height: 100%;
   background-color: rgba(255, 255, 255, 0.3);
-  padding-top: 20px;
   border-radius: 0px 6px 6px 0px;
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
@@ -122,7 +140,16 @@ body .container .button-effect a:last-child {
 .effect.effect-3:before {
   content: "\f178";
   font-family: FontAwesome;
-  display: block;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   top: 100%;
   left: 0px;
@@ -130,7 +157,6 @@ body .container .button-effect a:last-child {
   height: 100%;
   text-align: center;
   font-size: 30px;
-  padding-top: 15px;
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
@@ -149,7 +175,15 @@ body .container .button-effect a:last-child {
 .effect.effect-4:before {
   content: "\f178";
   font-family: FontAwesome;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   top: 0;
   left: 0px;
@@ -157,7 +191,6 @@ body .container .button-effect a:last-child {
   height: 100%;
   text-align: center;
   font-size: 30px;
-  padding-top: 15px;
   -webkit-transform: scale(0, 1);
           transform: scale(0, 1);
   -webkit-transition: all 0.2s linear 0s;
@@ -170,4 +203,19 @@ body .container .button-effect a:last-child {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
   text-indent: 0;
+}
+
+.effect.effect-5 {
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-5:before {
+  content: "";
+  display: block;
+  position: absloute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
