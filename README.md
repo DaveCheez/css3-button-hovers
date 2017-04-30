@@ -33,7 +33,7 @@ Pure CSS3 button hover effects with FontAwesome
 
 - open file (CSS or SCSS) and delete all the content between **common styles !!!YOU DON'T NEED THEM** comment and **button styles !!!YOU NEED THEM** comment. All these styles were created to make codepen demo more beautiful, if you keep these styles they can make mess in your website appearance.  
 
-- in common effect styles uncomment line with 'background-color', remove my text and add your own background-color. 
+- in common effect styles uncomment line with `background-color`, remove my text and add your own background-color. 
 
 - also add your own `font-family` and remove my comment.
 
