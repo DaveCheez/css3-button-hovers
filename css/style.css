@@ -50,6 +50,7 @@ body .container .button-effect a:last-child {
 }
 
 .effect {
+  text-align: center;
   display: inline-block;
   position: relative;
   text-decoration: none;
