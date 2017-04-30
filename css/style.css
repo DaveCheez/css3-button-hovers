@@ -1,3 +1,4 @@
+/* common styles !!!YOU DON'T NEED THEM */
 body {
   background-color: #F1E9DA;
 }
@@ -49,6 +50,8 @@ body .container .button-effect a:last-child {
   margin-right: 0px;
 }
 
+/* button styles !!!YOU NEED THEM 
+!!!ALSO YOU NEED TO ADD FONTWESOME */
 .effect {
   text-align: center;
   display: inline-block;
@@ -56,7 +59,9 @@ body .container .button-effect a:last-child {
   text-decoration: none;
   color: #fff;
   text-transform: capitalize;
+  /* background-color: - add your own background-color */
   font-family: 'Roboto', sans-serif;
+  /* put your font-family */
   font-size: 18px;
   padding: 20px 0px;
   width: 150px;
@@ -64,6 +69,7 @@ body .container .button-effect a:last-child {
   overflow: hidden;
 }
 
+/* effect-1 styles */
 .effect.effect-1 {
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
@@ -98,6 +104,7 @@ body .container .button-effect a:last-child {
   text-indent: 0px;
 }
 
+/* effect-2 styles */
 .effect.effect-2 {
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
@@ -134,6 +141,7 @@ body .container .button-effect a:last-child {
   text-indent: 0px;
 }
 
+/* effect-3 styles */
 .effect.effect-3 {
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
@@ -169,6 +177,7 @@ body .container .button-effect a:last-child {
   text-indent: 0;
 }
 
+/* effect-4 styles */
 .effect.effect-4 {
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
@@ -206,6 +215,7 @@ body .container .button-effect a:last-child {
   text-indent: 0;
 }
 
+/* effect-5 styles */
 .effect.effect-5 {
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;

@@ -8,7 +8,7 @@ $button-bg-5: #F28123;
 $border-radius: 6px;
 $overlay-color: #fff;
 
-//common styles !!!YOU DON'T NEED THEM
+/* common styles !!!YOU DON'T NEED THEM */
 body {
   background-color: $bg-color;
   
@@ -78,8 +78,8 @@ body {
   }
 }
 
-//button styles !!!YOU NEED THEM 
-//!!!ALSO YOU NEED TO ADD FONTWESOME
+/* button styles !!!YOU NEED THEM 
+!!!ALSO YOU NEED TO ADD FONTWESOME */
   
 .effect {
   text-align: center;
@@ -88,9 +88,9 @@ body {
   text-decoration: none;
   color: $link-text-color;
   text-transform: capitalize;
-  //background-color: - add your own background-color
+  /* background-color: - add your own background-color */
   font: {
-    family: 'Roboto', sans-serif; //put your font-family
+    family: 'Roboto', sans-serif; /* put your font-family */
     size: 18px;
   }
   padding: 20px 0px;
@@ -99,7 +99,7 @@ body {
   overflow: hidden;
 }
 
-//effect-1 styles
+/* effect-1 styles */
 
 .effect.effect-1 {
   transition: all 0.2s linear 0s;
@@ -130,7 +130,7 @@ body {
   }
 }
 
-//effect-2 styles
+/* effect-2 styles */
 
 .effect.effect-2 {
   transition: all 0.2s linear 0s;
@@ -163,7 +163,7 @@ body {
   }
 }
 
-//effect-3 styles
+/* effect-3 styles */
 .effect.effect-3 {
   transition: all 0.2s linear 0s;
   
@@ -194,7 +194,7 @@ body {
   }
 }
 
-//effect-4 styles
+/* effect-4 styles */
 .effect.effect-4 {
   transition: all 0.2s linear 0s;
   
@@ -225,7 +225,7 @@ body {
   }
 }
 
-//effect-5 styles
+/* effect-5 styles */
 
 .effect.effect-5 {
   transition: all 0.2s linear 0s;
